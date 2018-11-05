@@ -16,6 +16,8 @@ After the single-gene datasets are updated, the data can be concatenated. Either
      * [RAxML](http://sco.h-its.org/exelixis/web/software/raxml/index.html) - tree estimation program
         * Make sure you do `make -f Makefile.PTHREADS.gcc` from within the RAxML folder to enable multi-core calculation
      * [BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download) - it's needed for filter runs and when using local BLAST databses.
+     
+     On macOS, you will need to install `wget` and `gnu-tar`, we recommend using [homebrew](https://brew.sh/) to do so. 
 
 2. make sure the programms are accessible from everywhere, thus add them to your PATH using the command line:
      * UNIX: `export PATH=$PATH:/path/to/my/program`
