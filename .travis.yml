@@ -8,6 +8,7 @@ before_install:
   - wget 'https://sco.h-its.org/exelixis/resource/download/software/papara_nt-2.5-static_x86_64.tar.gz'
   - gunzip  -cd papara_nt-2.5-static_x86_64.tar.gz | (tar xvf - )
   - export PATH="$PATH:$(pwd)"
+  - ls
 
 
 # command to run tests
